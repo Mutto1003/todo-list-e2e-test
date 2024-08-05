@@ -1,3 +1,6 @@
 itemMultipleData:
   items: [Toyota,Honda,Ford,Chevrolet,BMW]
 
+itemMultipleSomeData:
+  items: [Honda,Chevrolet]
+
