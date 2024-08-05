@@ -23,4 +23,4 @@ TOLISTAPP-00002: Verify Delete Multiple Items To List
     Verify Delete Item To List
     Capture Image On Screen
 
-TOLISTAPP-00003: Verify Delete Multiple Some Items To List
+# TOLISTAPP-00003: Verify Delete Multiple Some Items To List

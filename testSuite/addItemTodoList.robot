@@ -21,4 +21,4 @@ TOLISTAPP-00002: Verify Add Multiple Items To List
     Verify Add Item To List  dataItem=${itemMultipleData}
     Capture Image On Screen
 
-TOLISTAPP-00003: Verify Add Multiple Items To List and Count To List
+# TOLISTAPP-00003: Verify Add Multiple Items To List and Count To List
