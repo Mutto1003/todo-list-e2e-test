@@ -27,6 +27,13 @@ jobs:
           pip install robotframework
           pip install robotframework-appiumlibrary
           pip install Appium-Python-Client
+          pip install Appium
+
+      - name: Start Appium Server
+        run: |
+          npm install -g appium  # Install Appium globally
+          appium &  # Start the Appium server in the background
+          sleep 5  # Give the server time to start
 
       - name: Run Robot Framework tests
         run: robot --outputdir ../results testSuite
