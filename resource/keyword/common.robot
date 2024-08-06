@@ -49,5 +49,5 @@ Verify State On Selector
     Wait Until Element Is Visible  ${selector}  timeout=${timeout}
 
 Capture Image On Screen
-    [Documentation]    Owner : Kachain.A
+    [Documentation]    Capture Image On Screen Mobile
     Capture Page Screenshot  name=screenshot.png

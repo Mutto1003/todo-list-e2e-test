@@ -4,7 +4,7 @@ Resource    ../../init.robot
 *** Keywords ***
 
 Checked Item To List
-    [Documentation]  Add single item to list
+    [Documentation]  Checked item to list
     [Arguments]  ${dataItem}
     ${item}  Set Variable  ${dataItem['items']}
     FOR  ${newItem}  IN  @{item}
@@ -13,7 +13,7 @@ Checked Item To List
     END
 
 Verify Checked Item To List
-    [Documentation]  Verify item data
+    [Documentation]  Verify Checked item data
     [Arguments]  ${dataItem}
     ${item}  Set Variable  ${dataItem['items']}
     FOR  ${newItem}  IN  @{item}

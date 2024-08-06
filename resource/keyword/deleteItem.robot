@@ -4,7 +4,7 @@ Resource    ../../init.robot
 *** Keywords ***
 
 Delete Item To List
-    [Documentation]  Add single item to list
+    [Documentation]  Delete single item to list
     [Arguments]  ${dataItem}
     ${item}  Set Variable  ${dataItem['items']}
     FOR  ${newItem}  IN  @{item}
@@ -12,6 +12,6 @@ Delete Item To List
     END
 
 Verify Delete Item To List
-    [Documentation]  Verify item data
+    [Documentation]  Verify Delete item data
     ${elements}  Get Matching Xpath Count  ${allListItem}
     Length Should Be  ${elements}  1
