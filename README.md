@@ -25,7 +25,7 @@
 
 # Run Robot Test 
 # Install App todo list on emulator: Pixel_3a_API_34_extension_level_7_arm64-v8a
-# Version Android 14 สามารถใช้ตาต้องการได้แต่ต้องไปปรับ config เพื่อให้สามารถเปิด app ได้
+# Version Android 14 สามารถใช้ตามต้องการได้แต่ต้องไปปรับ config เพื่อให้สามารถเปิด app ได้
 # Start Appinm ที่ Appium Decktop
 # Open project test
 # robot --outputdir ../results testSuite ใน Terminal 
