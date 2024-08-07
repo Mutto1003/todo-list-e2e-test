@@ -29,3 +29,6 @@
 # Open project test
 # Version Android 14 สามารถใช้ตามต้องการได้แต่ต้องไปปรับ config เพื่อให้สามารถเปิด app ได้ แต่ต้องให้ตรงกับ emulator ที่ลง app
 # robot --outputdir ../results testSuite ใน Terminal 
+# python3 -m "robot" -t 'TOLISTAPP-00001: Verify Add Single Item To List' '/Users/mutto/Ex_Test/todo-list-e2e-test/testSuite/addItemTodoList.robot'
+
+# ${REMOTE_URL}        http://127.0.0.1:4723/wd/hub or ${REMOTE_URL}        http://127.0.0.1:4723
